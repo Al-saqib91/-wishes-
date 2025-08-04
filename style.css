@@ -1,0 +1,53 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 3em;
+  color: #e91e63;
+}
+
+#wish-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#wish-button:hover {
+  background-color: #f50057;
+}
+
+#wish-message {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #4a148c;
+}
+
+.hidden {
+  display: none;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
